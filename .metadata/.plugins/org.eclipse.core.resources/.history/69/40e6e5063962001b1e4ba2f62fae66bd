@@ -1,0 +1,46 @@
+package br.com.elevadores.teste;
+
+import javax.swing.JOptionPane;
+
+public class TesteElevadores {
+	
+	
+	objeto.preencherEntrar(Byte.parseByte(JOptionPane.showInputDialog("Quantas pessoas entrando?")));
+	System.out.println(objeto.retornarPessoas());
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

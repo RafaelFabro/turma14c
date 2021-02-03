@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Magica.java&apos; to &apos;heranca/src/br.com.heranca.util&apos;&#x0D;&#x0A;- Original project: &apos;ecommerce&apos;&#x0D;&#x0A;- Destination element: &apos;heranca/src/br.com.heranca.util&apos;&#x0D;&#x0A;- Original element: &apos;br.com.ecommerce.util.Magica.java&apos;" description="Copy compilation unit" destination="=heranca/src&lt;br.com.heranca.util" element1="/src&lt;br.com.ecommerce.util{Magica.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1612198697129" units="1" version="1.0"/>
+</session>

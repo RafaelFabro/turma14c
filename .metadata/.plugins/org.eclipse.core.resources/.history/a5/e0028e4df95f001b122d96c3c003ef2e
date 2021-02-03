@@ -1,0 +1,29 @@
+package variaveis;
+
+public class PrimeiraClasse {
+
+	//método main: início da aplicação
+	public static void main(String args[]) {
+		
+		System.out.print("Hello World");
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

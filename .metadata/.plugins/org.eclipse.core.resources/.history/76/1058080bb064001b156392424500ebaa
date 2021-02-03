@@ -1,0 +1,11 @@
+package br.com.heranca.modelo;
+
+public class FormacaoTecnologo extends Formacao{
+
+public class FormacaoTecnologo {
+
+	
+	
+	
+	
+}

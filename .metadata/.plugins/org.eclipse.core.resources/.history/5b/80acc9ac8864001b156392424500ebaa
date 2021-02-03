@@ -1,0 +1,90 @@
+package br.com.ecommerce.teste;
+
+import br.com.ecommerce.modelo.Cliente;
+import br.com.ecommerce.modelo.Pagamento;
+import br.com.ecommerce.modelo.Produto;
+import br.com.ecommerce.modelo.Venda;
+
+public class TesteEcommerce {
+
+	public static void main(String[] args) {
+		
+		Venda venda = new Venda(
+				1,
+				new Cliente(),
+				new Produto(
+						),
+				"10/10/2020",
+				1500,
+				new Pagamento(
+						"VISTA",
+						"1500"
+						)				
+				);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

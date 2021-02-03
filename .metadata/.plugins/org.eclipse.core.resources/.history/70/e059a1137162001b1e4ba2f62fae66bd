@@ -1,0 +1,84 @@
+package br.com.ecommerce.teste;
+
+import javax.swing.JOptionPane;
+
+import br.com.ecommerce.modelo.ModeloEcommerce;
+
+public class TesteEcommerce {
+
+	public static void main(String[] args) {
+		
+		
+		ModeloEcommerce ecommerce = null;
+		
+		ecommerce.setId(Integer.parseInt(JOptionPane.showInputDialog("ID do produto" )));
+		ecommerce.setDescricao(JOptionPane.showInputDialog("Descrição do produto" ));		
+		ecommerce.setValorVenda(Float.parseFloat(JOptionPane.showInputDialog("Valor de venda")));	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

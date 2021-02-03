@@ -1,0 +1,47 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class PrimeiraClasse {
+
+	//método main: início da aplicação
+	public static void main(String args[]) {
+		
+		System.out.println("Hello World");
+		
+		//<Tipo do dado> <nome da variavel> = <valor>;
+		
+		/*
+		 * Dois tipos de dados:
+		 * 1º) Alfanumérico: dado que não será utilizado em expressões matemáticas
+		 * 2º) Numérico: é um dado que PODE ser utilizado em expressões matemáticas e/ou é um dado sensível/chave para buscas no modelo de negócios (ex: CEP no site dos correios) 
+		 */
+		
+		String nome = JOptionPane.showInputDialog("Digite seu nome");
+		int idade = 40;
+		double altura = 1.80;
+		System.out.println("Nome: " + nome);
+		System.out.println("Idade.: " + idade);
+		System.out.println("Altura: " + altura + " metros");
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

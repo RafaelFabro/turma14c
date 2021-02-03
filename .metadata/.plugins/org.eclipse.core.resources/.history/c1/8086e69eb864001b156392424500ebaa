@@ -1,0 +1,82 @@
+package br.com.heranca.teste;
+
+import br.com.heranca.modelo.FormacaoBacharelado;
+import br.com.heranca.modelo.FormacaoMedio;
+import br.com.heranca.modelo.FormacaoTecnologo;
+import br.com.heranca.util.Magica;
+
+public class TesteFormacao {
+
+	public static void main(String[] args) {
+		
+		
+char resp = Magica.s("Digite <T> para Tecnologo, <B> para Bacharelado ou <M> para Médio").charAt(0);
+		
+		if (resp=='T') {
+			FormacaoTecnologo tec = new FormacaoTecnologo();
+			tec.setPlanoEstendido(Magica.b(Magica.s("Plano Estendido?")));
+			tec.setDescricao(Magica.s("Descrição"));
+			tec.setPeriodo(Magica.i("Período"));
+			tec.setMensalidade(Magica.d("Mensalidade"));
+			tec.setDuracao(Magica.i("Duração"));
+			thiscalcularMensalidade();
+			System.out.println(tec.toString());
+		
+		}else if (resp=='B') {
+			FormacaoBacharelado bac = new FormacaoBacharelado();
+			bac.setProjetoConclusao(Magica.s("Descrição"));
+			bac.setCargaHorariaEstagio(Magica.i("Carga horária do estágio"));
+			bac.setDescricao(Magica.s("Descrição"));
+			bac.setPeriodo(Magica.i("Período"));
+			bac.setMensalidade(Magica.d("Mensalidade"));
+			bac.setDuracao(Magica.i("Duração"));
+			System.out.println(bac.toString());
+			
+		}else if (resp=='M') {
+			FormacaoMedio med = new FormacaoMedio();
+			med.setTipo(Magica.s("Tipo"));
+			med.setDescricao(Magica.s("Descrição"));
+			med.setPeriodo(Magica.i("Período"));
+			med.setMensalidade(Magica.d("Mensalidade"));
+			med.setDuracao(Magica.i("Duração"));
+			System.out.println(med.toString());
+			
+		}else {
+			System.out.println("Sem formação");
+		}
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

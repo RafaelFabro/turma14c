@@ -1,0 +1,119 @@
+package br.com.concessionaria.modelo;
+
+public class Veiculo {
+
+	
+	private String modelo;
+	private String placa;
+	private float valor;
+	private boolean status;
+	private float velocidadeAtual;
+	private float reajuste;
+	private float acelerar;
+	
+	public void preencherModelo(String param) {
+		if (param.length()>5) {
+		modelo = param.substring(0,5).toUpperCase();
+	}else {
+		modelo = param.toUpperCase();
+	}
+	}
+	
+	public String retornarModelo() {
+		return modelo;
+	}
+	
+	public void preencherPlaca(String param) {
+		placa=param;
+	}
+		public String retornarPlaca() {
+		return placa.toUpperCase();
+	}
+	
+	public void preencherValor(float param) {
+		if (param>0) {
+		valor=param;
+		}
+	}
+	public float retornarValor() {
+	return valor;
+	}
+	
+	public void preencherStatus(boolean param) {
+		status=param;
+	}
+	public boolean retornarStatus() {
+	return status;
+	}
+			
+	public void preencherVelocidadeAtual(float param) {
+	velocidadeAtual=param;
+	}
+	
+	public float retornarVelocidadeAtual() {
+		return velocidadeAtual;
+	}
+	
+	public float retornarDesconto() {
+		return valor*(float)0.95;
+		}
+	
+	public void aplicarReajuste(float porcentagem) {
+		valor = valor + valor * (porcentagem/100);
+		return "Valor atualizado";
+		}
+	
+	public void preencherAcelerar(float param) {
+		if (status==true) 
+		acelerar=param+velocidadeAtual;
+}	else {
+	acelerar=velocidadeAtual;
+}
+	public float retornarAcelerar() {
+		return acelerar;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,45 @@
+package br.com.heranca.modelo;
+
+public class FormacaoTecnologo extends Formacao{
+
+	
+	private boolean planoEstendido;
+
+	
+	@Override
+	public String toString() {
+		return "FormacaoTecnologo [planoEstendido=" + planoEstendido + ", " + super.toString() + "]";
+	}
+
+	public void setAll(String descricao, int periodo, double mensalidade, int duracao, boolean planoEstendido) {
+		super.setAll(descricao, periodo, mensalidade, duracao);
+		this.planoEstendido = planoEstendido;
+	}
+
+	public FormacaoTecnologo() {
+		super();
+	}
+
+	public FormacaoTecnologo(String descricao, int periodo, double mensalidade, int duracao, boolean planoEstendido) {
+		super(descricao, periodo, mensalidade, duracao);
+		this.planoEstendido = planoEstendido;
+	}
+
+	public boolean isPlanoEstendido() {
+		return planoEstendido;
+	}
+
+	public void setPlanoEstendido(boolean planoEstendido) {
+		this.planoEstendido = planoEstendido;
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+}

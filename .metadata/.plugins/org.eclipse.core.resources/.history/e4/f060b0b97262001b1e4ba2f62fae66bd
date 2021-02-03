@@ -1,0 +1,88 @@
+package br.com.ecommerce.teste;
+
+import br.com.ecommerce.modelo.Cliente;
+import br.com.ecommerce.modelo.Endereco;
+import br.com.ecommerce.modelo.Venda;
+
+public class TesteEcommerce {
+
+	public static void main(String[] args) {
+		
+		
+		Venda venda = new Cliente(
+				"Nome do cliente",
+				new Endereco(
+						"Bairro"
+						
+						
+						
+						
+						))
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

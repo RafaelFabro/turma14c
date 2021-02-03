@@ -1,0 +1,10 @@
+package br.com.elevadores.teste;
+
+public class TesteElevadores {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

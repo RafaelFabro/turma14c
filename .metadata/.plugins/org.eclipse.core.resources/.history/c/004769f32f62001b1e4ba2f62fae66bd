@@ -1,0 +1,30 @@
+package br.com.concessionaria.teste;
+
+import javax.swing.JOptionPane;
+
+import br.com.concessionaria.modelo.Veiculo;
+
+public class TesteVeiculo {
+
+	public static void main(String[] args) {
+		
+		Veiculo objeto = new Veiculo();
+		objeto.preencherModelo(JOptionPane.showInputDialog("UNO"));
+		System.out.println(objeto.retornarModelo());
+		
+		objeto.preencherPlaca(JOptionPane.showInputDialog("TCX603"));
+		System.out.println(objeto.retornarPlaca());
+		
+		objeto.preencherValor(Float.parseFloat(JOptionPane.showInputDialog("Digite o valor")));
+		System.out.println(objeto.retornarValor());
+		System.out.println(objeto.retornarDesconto());
+		
+		objeto.preencherStatus(true);
+		System.out.println(objeto.retornarStatus());
+		objeto.preencherVelocidadeAtual(40);
+		System.out.println(objeto.retornarVelocidadeAtual());
+		
+		System.out.println("Desconto: " + objeto.retornarDesconto());
+	}
+
+}

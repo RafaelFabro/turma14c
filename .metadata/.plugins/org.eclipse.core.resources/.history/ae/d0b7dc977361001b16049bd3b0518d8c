@@ -1,0 +1,49 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafiosRepeticao {
+
+	public static void main(String[] args) {
+		
+				
+		String estacao = JOptionPane.showInputDialog("Digite sua estação do ano favorita, sem acentuação. Para encerrar, digite fim.").toLowerCase();
+		int verao=0;
+		int outono=0;
+		int inverno=0;
+		int primavera=0;
+		int total=verao+outono+inverno+primavera;
+		
+		do {
+			estacao = (JOptionPane.showInputDialog("número"));
+			if (estacao=="verao") {
+				verao=verao+1;
+			}else if(estacao=="outono" ) {
+				outono=outono+1;
+			}else if(estacao=="inverno" ) {
+				inverno=inverno+1;
+			}else if(estacao=="primavera" ) {
+				primavera=primavera+1;
+			}while (estacao!="fim"); 
+		
+			System.out.println("Verao: " + (verao/total)*100 + "%" + " de pessoas.");
+			System.out.println("Outono: " + (outono/total)*100 + "%" + " de pessoas.");
+			System.out.println("Inverno: " + (inverno/total)*100 + "%" + " de pessoas.");
+			System.out.println("Primavera: " + (primavera/total)*100 + "%" + " de pessoas.");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

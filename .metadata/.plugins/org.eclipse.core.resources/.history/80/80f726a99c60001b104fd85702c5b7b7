@@ -1,0 +1,69 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoSimples {
+
+	public static void main(String[] args) {
+		
+		String disciplina = JOptionPane.showInputDialog("Digite a disciplina");
+		double PR1 = 10.0;
+		double PR2 = 8.5;
+		System.out.println("Disciplina: " + disciplina);		
+		System.out.println("Media: " + (PR1 + PR2)/2);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

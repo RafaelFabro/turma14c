@@ -1,0 +1,57 @@
+package br.com.heranca.modelo;
+
+import br.com.heranca.util.PadraoFormacao;
+
+public class FormacaoTecnologo extends Formacao implements PadraoFormacao{
+
+	
+	private boolean planoEstendido;
+
+	
+public void calcularMensalidade(double fator) {
+	super.setMensalidade(super.getDuracao() * fator * 600);
+	}	
+	
+	@Override
+	public String toString() {
+		return "FormacaoTecnologo [planoEstendido=" + planoEstendido + ", " + super.toString() + "]";
+	}
+
+	public void setAll(String descricao, int periodo, double mensalidade, int duracao, boolean planoEstendido) {
+		super.setAll(descricao, periodo, mensalidade, duracao);
+		this.planoEstendido = planoEstendido;
+	}
+
+	public FormacaoTecnologo() {
+		super();
+	}
+
+	public FormacaoTecnologo(String descricao, int periodo, double mensalidade, int duracao, boolean planoEstendido) {
+		super(descricao, periodo, mensalidade, duracao);
+		this.planoEstendido = planoEstendido;
+	}
+
+	public boolean isPlanoEstendido() {
+		return planoEstendido;
+	}
+
+	public void setPlanoEstendido(boolean planoEstendido) {
+		this.planoEstendido = planoEstendido;
+	}
+
+	@Override
+	public String calcularDesconto(float porc) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+}

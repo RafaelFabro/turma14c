@@ -1,0 +1,77 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDo {
+
+	public static void main(String[] args) {
+		
+		/*Game:
+		 * Jogador 1 => digita um numero
+		 * Jogador 2 => tem que descobrir o numero digitado pelo jogador 1
+		 * 
+		 * Quando o jogador 2 acertar, exibir a mensagem Parabéns!!!
+		 * 
+		 * 
+		 * Missão 2:
+		 * Você implementar dicas para o jogador 2 (o número é maior ou menor)
+		 * 
+		 * Missão 3:
+		 * Quando o jogador 2 acertar, exibir quantas tentativas ele usou
+		 * Dica: usar variavel para contar
+		 *  
+		 */
+		
+				
+		int numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um número"));
+		int chute=0;
+		int contador=0;
+		do {
+		chute = Integer.parseInt(JOptionPane.showInputDialog("Adivinhe o número"));
+		contador=contador+1;
+		if (numero>chute) {
+			JOptionPane.showMessageDialog(null,  "O número é maior!!!");
+		}else if(numero<chute ) {
+			JOptionPane.showMessageDialog(null,  "O número é menor!!!");
+		}
+					
+		} while (numero!=chute); 
+		JOptionPane.showMessageDialog(null,  "Parabéns, você acertou com " + contador + " tentativas!!!");
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

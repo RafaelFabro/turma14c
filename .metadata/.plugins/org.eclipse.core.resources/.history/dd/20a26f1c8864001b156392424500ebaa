@@ -1,0 +1,80 @@
+package br.com.ecommerce.teste;
+
+import javax.swing.JOptionPane;
+
+import br.com.ecommerce.modelo.Produto;
+
+public class TesteEcommerce {
+
+	public static void main(String[] args) {
+		
+		Produto objeto = new id();
+		objeto.getId(Integer.parseInt(JOptionPane.showInputDialog("Digite o produto")));
+		System.out.println(objeto.returnId());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

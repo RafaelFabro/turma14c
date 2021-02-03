@@ -1,0 +1,37 @@
+package br.com.concessionaria.modelo;
+
+public class Veiculo {
+
+	
+	private String modelo;
+	private String placa;
+	private float valor;
+	private boolean status;
+	private float velocidadeAtual;
+	
+	public void preencherModelo(String param) {
+		modelo = param;
+	}
+	
+	public String retornarModelo() {
+		return modelo;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

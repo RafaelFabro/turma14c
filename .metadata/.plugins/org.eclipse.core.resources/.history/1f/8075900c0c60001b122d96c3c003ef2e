@@ -1,0 +1,48 @@
+package variaveis;
+
+public class TipoString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String email = "DfRet2@YahoO.coM.Br";
+				System.out.println("Original" + email);
+				System.out.println("Minusculas: " + email.toLowerCase());
+				System.out.println("Maiusculas: " + email.toUpperCase());
+				System.out.println("Tamanho: " + email.length());
+				System.out.println("Terceiro Caracter:" + email.charAt (2));
+				System.out.println("Tem arroba?" + email.contains("@"));
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

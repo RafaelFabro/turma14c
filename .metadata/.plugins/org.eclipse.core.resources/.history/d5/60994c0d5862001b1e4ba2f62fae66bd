@@ -1,0 +1,85 @@
+package br.com.ecommerce.teste;
+
+import javax.swing.JOptionPane;
+
+import br.com.ecommerce.modelo.ModeloEcommerce;
+import br.com.universidade.beans.Aluno;
+
+public class TesteEcommerce {
+
+	public static void main(String[] args) {
+		
+		
+		ModeloEcommerce ecommerce = null;
+		
+		ecommerce.setId(Integer.parseInt(JOptionPane.showInputDialog("ID do produto" )));
+		System.out.println(ecommerce.getId());
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

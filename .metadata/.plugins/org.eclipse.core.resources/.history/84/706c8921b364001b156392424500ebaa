@@ -1,0 +1,72 @@
+package br.com.heranca.teste;
+
+import br.com.ecommerce.modelo.ClientePJ;
+import br.com.ecommerce.modelo.Endereco;
+import br.com.heranca.modelo.FormacaoTecnologo;
+import br.com.heranca.util.Magica;
+
+public class TesteFormacao {
+
+	public static void main(String[] args) {
+		
+		
+char resp = Magica.s("Digite <T> para Tecnologo, <B> para Bacharelado ou <M> para Médio").charAt(0);
+		
+		if (resp=='T') {
+			FormacaoTecnologo tec = new FormacaoTecnologo();
+			tec.setplanoEstendido(Magica.s("Plano Estendido?"));
+			tec.setdescricao(Magica.s("Descrição"));
+			tec.setperiodo(Magica.i("Período"));
+			tec.setmensalidade(Magica.d("Mensalidade"));
+			tec.setduracao(Magica.1("Duração"));
+			System.out.println(tec.toString());
+		}else if (resp=='J') {
+			ClientePJ pj = new ClientePJ();
+			pj.setAll(
+					Magica.s("Nome"),
+					Magica.s("Fone"),
+					new Endereco(),
+					Magica.s("CNPJ"),
+					Magica.s("Contato")					
+					);
+			System.out.println(pj.toString());
+			
+		}else {
+			System.out.println("Opção inválida");
+		}
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

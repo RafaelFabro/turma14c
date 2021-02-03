@@ -1,0 +1,78 @@
+package br.com.ecommerce.modelo;
+
+import br.com.universidade.beans.Endereco;
+
+public class Venda {
+
+	private int notafiscal;
+	private String data;
+	private float total;
+	private ModeloEcommerce produto;
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

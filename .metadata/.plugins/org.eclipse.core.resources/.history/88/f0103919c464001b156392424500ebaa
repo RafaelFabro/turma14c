@@ -1,0 +1,20 @@
+package br.com.heranca.util;
+
+public class PadraoFormacao {
+	
+	public String calcularDesconto(float porc);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}
